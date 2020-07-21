@@ -1,0 +1,43 @@
+<!-- 第一部分 -->
+<view class="line"></view>
+<view class="personal-center"> 
+  <view class="text">
+    <view class="myName">天下第壹吃货</view>
+    <view class="myIntroduction">欢迎您光临四海香！</view>
+  </view>
+  <image src="../img/24.png"></image>
+</view>
+<!-- 第一部分结束 -->
+
+<!-- 第二部分 -->
+<view style="width:700rpx; left:55rpx; "class="line"></view>
+
+<view class="personalContent">
+  <view class="myitem-out">
+    <view class="myitem"> 
+      <image src="../img/32.png"></image>
+      <view class="text1">烹饪历史</view>
+      <view class="text2">></view>
+    </view>
+    <view style="width:600rpx; float:right; right: 30rpx;"class="line"></view>
+  </view>
+  <view class="myitem-out">
+    <view class="myitem"> 
+      <image src="../img/33.png"></image>
+      <view class="text1">支付记录</view>
+      <view class="text2">></view>
+    </view>
+    <view style="width:600rpx; float:right;right: 30rpx; "class="line"></view>
+  </view>
+  <view class="myitem-out">
+    <view class="myitem"> 
+      <image src="../img/34.png"></image>
+      <view class="text1">举报投诉</view>
+      <view class="text2">></view>
+    </view>
+    <view style="width:600rpx; float:right;right: 30rpx; "class="line"></view>
+  </view>
+</view>
+<!-- 第二部分结束 -->
+
+

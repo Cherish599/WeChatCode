@@ -1,0 +1,65 @@
+<view class="line"></view>
+<!-- 第一部分 -->
+
+<view class="all-favorite">
+    <view class="favorite-left">
+      <image class="favorite-img1" src="../img/18.png"></image>
+      <view class="favorite-text1">已收藏12个餐宴</view>
+    </view>
+    <view class="favorite-right">
+      <image class="favorite-img2" src="../img/19.png"></image>
+      <view class="favorite-text2">清空</view>
+    </view>
+</view>
+
+<!-- 第一部分结束 -->
+
+<!-- 第二部分 -->
+<view class="favorite">
+  <view class="favorite-item">
+    <view class="favorite-item-top">
+      <image class="favorite-item-img" src="../img/25.png"></image>
+      <view class="fire">
+        <image class="fire-img" src="../img/17.png"></image>
+        <view>18888</view>
+      </view>
+    </view>
+    <view class="favorite-item-bottom">
+      <view class="favorite-item-bottom-left">
+        <view class="meal-name">盛夏海鲜家宴</view>
+        <view class="meal-price">￥4999/桌</view>
+      </view>
+      <view class="favorite-item-bottom-right">
+        <image src="../img/20.png"></image>
+        <view>取消收藏</view>
+      </view>
+    </view>
+  
+  </view>
+
+  <view class="favorite-item">
+    <view class="favorite-item-top">
+      <image class="favorite-item-img" src="../img/31.png"></image>
+      <view class="fire">
+        <image class="fire-img" src="../img/17.png"></image>
+        <view>20466</view>
+      </view>
+    </view>
+    <view class="favorite-item-bottom">
+      <view class="favorite-item-bottom-left">
+        <view class="meal-name">盛夏海鲜家宴</view>
+        <view class="meal-price">￥3789/桌</view>
+      </view>
+      <view class="favorite-item-bottom-right">
+        <image src="../img/20.png"></image>
+        <view>取消收藏</view>
+      </view>
+    </view>
+  
+  </view>
+  
+
+</view>
+
+
+<!-- 第二部结束 -->

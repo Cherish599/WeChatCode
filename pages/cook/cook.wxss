@@ -1,0 +1,168 @@
+.line{
+  width:100%;
+  height:3rpx;
+  background:rgb(237, 237, 237)
+ }
+
+.all-cook{
+  width:750rpx;
+  height:60rpx;
+  
+}
+.cook-left{
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  float: left;
+  padding-top: 15rpx;
+  padding-left: 20rpx;
+}
+.cook-right{
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  float: right;
+  padding-top: 15rpx;
+  padding-right: 20rpx;
+}
+
+.cook-img1{
+  width: 32rpx;
+  height: 32rpx;
+}
+.cook-img2{
+  width: 40rpx;
+  height: 30rpx;
+  padding-top: 3rpx;
+  padding-right: 5rpx;
+}
+
+.cook-text1{
+  font-size:30rpx;
+  padding-left: 20rpx;
+}
+.cook-text2{
+  font-size:25rpx;
+  color: rgb(200,200, 200);
+}
+
+/* 第一部分结束 */
+
+/* 第二部分 */
+
+
+.cook-item{
+  width:690rpx;
+  height:800rpx;
+  margin:30rpx;
+  border-radius: 5rpx;
+  box-shadow: 5rpx 5rpx 10rpx rgb(200,200,200); 
+  position: relative;
+}
+
+.cook-item-top{
+  width: 690rpx;
+  height: 130rpx;
+  
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.cook-item-top .row{
+  padding-top: 10rpx;
+  padding-left: 12rpx;
+}
+.cook-item-top .row image{
+  width: 50rpx;
+  height: 40rpx;
+  float: left;
+  padding-right: 3rpx;
+  display: block;
+}
+.cook-item-top .row view{
+  padding-top: 3rpx;
+  float: left;
+  font-size: 26rpx;
+  padding-left: 10rpx;
+  /* color: rgb(180, 181, 185); */
+}
+
+
+
+.cook-item-middle{
+  position: relative;
+}
+
+.cook-item-img{
+  width:690rpx;
+  height:450rpx;
+  
+}
+.cook-item-bottom-left{
+  float: left;
+  padding-left: 30rpx;
+  padding-top: 5rpx;
+}
+.cook-item-bottom-right{
+  float: right;
+  position: relative;
+}
+
+.meal-name{
+  font-weight: bold;
+  font-size:30rpx;
+}
+.meal-price{
+  font-weight: bold;
+  font-size:28rpx;
+  color:#fe7367;
+  padding-top: 5rpx;
+}
+
+.cook-item-bottom-right image{
+  
+  width: 42rpx;
+  height: 38rpx;
+}
+.cook-item-bottom-right .image1{
+  position: absolute;
+  right: 130rpx;
+  top: 12rpx;
+  width: 42rpx;
+  height: 38rpx;
+}
+.cook-item-bottom-right .image2{
+  position: absolute;
+  right: 40rpx;
+  width: 60rpx;
+  height: 50rpx;
+}
+.cook-item-bottom-right view{
+  font-size: 27rpx;
+  color: rgb(220, 176, 110);
+  padding-right: 40rpx;
+  padding-top: 60rpx;
+
+  float: right;
+}
+.cook-item-bottom-right .phone{
+  display: block;
+}
+.cook-item-bottom-right .service{
+  display: block;
+  color: rgb(220, 176, 110);
+}
+
+.cook-item button{
+  position: absolute;
+  left: 30rpx;
+  bottom: 30rpx;
+  width: 740rpx;
+  height: 70rpx;
+  background-color: rgb(255, 104, 85);
+  color: aliceblue;
+  font-family: "宋体";
+}
+
+/* 第二部分结束 */

@@ -1,0 +1,62 @@
+.line{
+  width:100%;
+  height:2rpx;
+  position: absolute;
+  background:rgb(237, 237, 237)
+  
+ }
+
+ /* 第一部分 */
+ .personal-center{
+  width:720rpx;
+  height:220rpx;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.personal-center image{
+  width:150rpx;
+  height:150rpx;
+}
+.personal-center .text{
+  padding: 50rpx;
+}
+.myName{
+  font-size:50rpx;
+  font-weight: bold;
+}
+.myIntroduction{
+  padding-top: 15rpx;
+  font-size:30rpx;
+  color:#999;
+}
+/* 第一部分结束 */
+
+/* 第二部分 */
+.myitem{
+  width:720rpx;
+  height:120rpx;
+  position: relative;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.myitem image{
+  width:50rpx;
+  height:50rpx;
+  position: absolute;
+  left: 50rpx;
+}
+.myitem .text1{
+  padding: 50rpx;
+  position: absolute;
+  left: 70rpx;
+}
+.myitem .text2{
+  position: absolute;
+  right: 10rpx;
+  color: #999;
+}
+
+
+/* 第二部分结束 */

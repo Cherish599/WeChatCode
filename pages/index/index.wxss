@@ -1,0 +1,212 @@
+/* 第一部分 */
+.swiper_search{
+  height:40vh;
+  position: relative;
+}
+.swiper{
+  height:40vh;
+}
+.swiperImg{
+  width:100vw;
+  height:40vh;
+}
+
+.search{
+  width:690rpx;
+  height:90rpx;
+  border-radius: 45rpx;
+  background-color: #fff;
+  margin-left:30rpx;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom:-40rpx;
+  box-shadow: 5rpx 5rpx 10rpx rgb(200,200,200);
+}
+.search image{
+  width:40rpx;
+  height:40rpx;
+  margin-right:10rpx;
+}
+.search-text{
+  font-size:30rpx;
+  color:#999;
+}
+/* 第一部分 */
+
+/* 第二部分 */
+.nav{
+  margin-top:60rpx;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-item{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item image{
+  width:110rpx;
+  height:110rpx;
+  margin-bottom:10rpx;
+}
+.nav-item-text{
+  font-size:30rpx;
+}
+/* end 第二部分 */
+
+/* 第三部分 */
+.banner{
+  width:690rpx;
+  height:300rpx;
+  margin:30rpx;
+}
+/* end第三部分 */
+.line{
+  width:750rpx;
+  height:25rpx;
+  background-color:#eee;
+}
+
+/* 第四部分 */
+.cook-item{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:10rpx 20rpx;
+  border-bottom: 10rpx;
+  box-shadow: 5rpx 5rpx 10rpx rgb(200,200,200); 
+  
+}
+.cookimg1{
+  width:460rpx;
+  height:85rpx;
+  margin:30rpx 145rpx;
+}
+.cookimg2{
+  width:110rpx;
+  height:110rpx;
+}
+.star{
+  width:130rpx;
+  height:21rpx;
+  
+  position: relative;
+  overflow:hidden;
+}
+.cookimg3{
+  width:130rpx;
+  height:140rpx;
+  position: absolute;
+  bottom:-30rpx;
+}
+.cook-content{
+  display:flex;
+  justify-content: space-around;
+}
+.cook-name{
+  font-size:30rpx;
+}
+.morecook{
+  width:750rpx;
+  height:100rpx;
+  font-size:30rpx;
+  color:#999;
+  text-align:center;
+  line-height:100rpx;
+}
+/* end第四部分 */
+
+
+/* 第五部分 */
+.mealimg1{
+  width:460rpx;
+  height:40rpx;
+  margin:30rpx 145rpx;
+}
+.meal-item-out{
+  display:flex;
+}
+.meal-item{
+  width:320rpx;
+  height:310rpx;
+  border-radius: 5rpx;
+  /* border:1px solid red; */
+  display:flex;
+  
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right:10rpx;
+  margin-left:20rpx;
+  margin-bottom:10rpx;
+  box-shadow: 5rpx 5rpx 10rpx rgb(200,200,200); 
+}
+.mealimg2{
+  width:320rpx;
+  height:190rpx;
+}
+.meal-name{
+  font-weight: bold;
+  font-size:30rpx;
+}
+.meal-price{
+  font-weight: bold;
+  font-size:25rpx;
+  color:#fe7367;
+}
+.moremeal{
+  width:750rpx;
+  height:100rpx;
+  font-size:30rpx;
+  color:#999;
+  text-align:center;
+  line-height:100rpx;
+}
+/* end 第五部分 */
+
+/* 第六部分 */
+.service-item-out{
+  display:inline-block;
+}
+.service-item{
+  width:375rpx;
+  height:160rpx;
+  box-shadow: 0rpx 0rpx 1rpx rgb(200,200,200);
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+.service-item image{
+  width:70rpx;
+  height:70rpx;
+  margin-right: 15rpx;
+  margin-left: 30rpx;
+}
+.service-1{
+  font-size:30rpx;
+  font-weight: bold;
+}
+.service-2{
+  font-size:25rpx;
+  color:#999;
+}
+
+
+/* 第六部分 */
+
+/* 第七部分 */
+.bigpic{
+  width:750rpx;
+  height:400rpx;
+  margin:30rpx 0;
+}
+/* end第七部分 */
+
+
+
+
+

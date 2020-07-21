@@ -1,0 +1,158 @@
+<!-- 第一部分 -->
+<view class="swiper_search">
+	<!-- 轮播 -->
+	<swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{true}}">
+
+		<swiper-item>
+			<image class="swiperImg" src="../img/banner.png"></image>
+		</swiper-item>
+		<swiper-item>
+			<image class="swiperImg" src="../img/12.png"></image>
+		</swiper-item>
+
+	</swiper>
+	<!-- end轮播 -->
+	<!-- 搜索框 -->
+	<view class="search">
+		<image src="../img/3.png"></image>
+		<view class="search-text">搜索菜单,美食</view>
+	</view>
+	<!-- end 搜索框 -->
+</view>
+<!-- end 第一部分 -->
+
+<!-- 第二部分 -->
+<view class="nav">
+	<view class="nav-item">
+		<image src="../img/4.png"></image>
+		<view class="nav-item-text">餐宴</view>
+	</view>
+	<view class="nav-item">
+		<image src="../img/5.png"></image>
+		<view class="nav-item-text">名厨</view>
+	</view>
+	<view class="nav-item">
+		<image src="../img/6.png"></image>
+		<view class="nav-item-text">坝坝宴</view>
+	</view>
+	<view class="nav-item">
+		<image src="../img/7.png"></image>
+		<view class="nav-item-text">餐厅周边</view>
+	</view>
+
+</view>
+<!-- end第二部分 -->
+
+<!-- 第三部分 -->
+<image class="banner" src="../img/banner2.png"></image>
+<!-- end 第三部分 -->
+<view class="line"></view>
+
+<!-- 第四部分 -->
+<view class="cook">
+	<image class="cookimg1" src="../img/9.png"></image>
+	<view class="cook-content">
+		<view class="cook-item">
+			<image class="cookimg2" src="../img/cook1.png"></image>
+			<view class="cook-name">张小美</view>
+			<view class="star">
+				<image class="cookimg3" src="../img/star.png"></image>
+			</view>
+		</view>
+		<view class="cook-item">
+			<image class="cookimg2" src="../img/cook2.png"></image>
+			<view class="cook-name">王大牛</view>
+			<view class="star">
+				<image class="cookimg3" src="../img/star.png"></image>
+			</view>
+		</view>
+		<view class="cook-item">
+			<image class="cookimg2" src="../img/cook3.png"></image>
+			<view class="cook-name">斯塔克</view>
+			<view class="star">
+				<image class="cookimg3" src="../img/star.png"></image>
+			</view>
+		</view>
+
+	</view>
+	<view class="morecook">更多名厨</view>
+</view>
+
+<!-- end第四部分 -->
+<view class="line"></view>
+
+<!-- 第五部分 -->
+<view class="meal">
+	<image class="mealimg1" src="../img/10.png"></image>
+	<scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+
+		<view class="meal-item-out">
+			<view class="meal-item">
+				<image class="mealimg2" src="../img/25.png"></image>
+				<view class="meal-name">盛夏海鲜家宴</view>
+				<view class="meal-price">￥4999/桌</view>
+			</view>
+			<view class="meal-item">
+				<image class="mealimg2" src="../img/26.png"></image>
+				<view class="meal-name">精品西式家宴</view>
+				<view class="meal-price">￥4999/桌</view>
+			</view>
+			<view class="meal-item">
+				<image class="mealimg2" src="../img/31.png"></image>
+				<view class="meal-name">盛夏海鲜家宴</view>
+				<view class="meal-price">￥4999/桌</view>
+			</view>
+		</view>
+	</scroll-view>
+	<view class="moremeal">更多餐宴</view>
+</view>
+<!-- end第五部分 -->
+<view class="line"></view>
+
+<!-- 第六部分 -->
+<view class="service">
+
+	<view class="service-item-out">
+		<view class="service-item">
+			<image src="../img/13.png"></image>
+			<view>
+				<view class="service-1">信用保障</view>
+				<view class="service-2">服务到位,时间准时</view>
+			</view>
+		</view>
+	</view>
+	<view class="service-item-out">
+		<view class="service-item">
+			<image src="../img/14.png"></image>
+			<view>
+				<view class="service-1">认证服务商</view>
+				<view class="service-2">厨师实名，服务更可靠</view>
+			</view>
+		</view>
+	</view>
+	<view class="service-item-out">
+		<view class="service-item">
+			<image src="../img/15.png"></image>
+			<view>
+				<view class="service-1">品质服务</view>
+				<view class="service-2">知名品牌，星级厨师</view>
+			</view>
+		</view>
+	</view>
+	<view class="service-item-out">
+		<view class="service-item">
+			<image src="../img/16.png"></image>
+			<view>
+				<view class="service-1">安全保障</view>
+				<view class="service-2">全平台在线支付</view>
+			</view>
+		</view>
+	</view>
+</view>
+<!--end 第六部分 -->
+
+<!-- 第七部分 -->
+<image class="bigpic" src="../img/bigpic.png"></image>
+<!-- end第七部分 -->
+
+

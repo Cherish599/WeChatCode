@@ -1,0 +1,89 @@
+<view class="line"></view>
+<!-- 第一部分 -->
+
+<view class="all-cook">
+    <view class="cook-left">
+      <image class="cook-img1" src="../img/18.png"></image>
+      <view class="cook-text1">已有9个行程</view>
+    </view>
+    <view class="cook-right">
+      <image class="cook-img2" src="../img/alarm.png"></image>
+      <view class="cook-text2">历史</view>
+    </view>
+
+</view>
+<!-- 第一部分结束 -->
+
+<!-- 第二部分 -->
+<view class="cook">
+ 
+  <view class="cook-item">
+    <view class="cook-item-top">
+      <view class="row">
+        <image src="../img/alarm.png"></image>
+        <view>05-09 11:40 周三 名厨上门</view>
+      </view>
+      <view class="row">
+        <image src="../img/location.png"></image>
+        <view >培城区 长虹国际大道 翡翠绿湾1栋2单元1802</view>
+      </view>
+    </view>
+    <view class="cook-item-middle">
+      <image class="cook-item-img" src="../img/25.png"></image>
+    </view>
+    <view class="cook-item-bottom">
+      <view class="cook-item-bottom-left">
+        <view class="meal-name">盛夏海鲜家宴</view>
+        <view class="meal-price">￥4999/桌</view>
+      </view>
+      <view class="cook-item-bottom-right">
+        <image class="image1" src="../img/telephone.png"></image>
+        <image class="image2" src="../img/service.jpg"></image>
+        <view class="service">服务</view>
+        <view class="phone">电话</view>
+      </view>
+    </view>
+
+    
+    <button style="width: 630rpx;">我的账单</button>
+  
+  </view>
+
+ 
+  <view class="cook-item">
+    <view class="cook-item-top">
+      <view class="line">
+        <image src="../img/alarm.png"></image>
+        <view>05-09 11:40 周三 名厨上门</view>
+      </view>
+      <view class="line">
+        <image src="../img/location.png"></image>
+        <view >园艺山 创新中心 翡翠绿湾1栋2单元1802</view>
+      </view>
+    </view>
+    <view class="cook-item-middle">
+      <image class="cook-item-img" src="../img/12.png"></image>
+    </view>
+    <view class="cook-item-bottom">
+      <view class="cook-item-bottom-left">
+        <view class="meal-name">盛夏海鲜家宴</view>
+        <view class="meal-price">￥5279/桌</view>
+      </view>
+      <view class="cook-item-bottom-right">
+        <image class="image1" src="../img/telephone.png"></image>
+        <image class="image2" src="../img/service.jpg"></image>
+        <view class="service">服务</view>
+        <view class="phone">电话</view>
+      </view>
+    </view>
+
+    
+    <button style="width: 630rpx;">我的账单</button>
+  
+  </view>
+  
+
+</view>
+
+
+<!-- 第二部分结束 -->

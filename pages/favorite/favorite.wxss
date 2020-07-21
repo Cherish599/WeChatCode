@@ -1,0 +1,129 @@
+.line{
+  width:100%;
+
+  height:3rpx;
+  
+  background:rgb(237, 237, 237)
+  
+ }
+/* 第一部分 */
+
+.all-favorite{
+  width:750rpx;
+  height:60rpx;
+  
+}
+.favorite-left{
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  float: left;
+  padding-top: 15rpx;
+  padding-left: 20rpx;
+}
+.favorite-right{
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  float: right;
+  padding-top: 15rpx;
+  padding-right: 20rpx;
+}
+
+.favorite-img1{
+  width: 32rpx;
+  height: 32rpx;
+}
+.favorite-img2{
+  width: 28rpx;
+  height: 28rpx;
+  padding-right: 20rpx;
+}
+
+.favorite-text1{
+  font-size:30rpx;
+  padding-left: 20rpx;
+}
+.favorite-text2{
+  font-size:28rpx;
+  color: rgb(200,200, 200);
+}
+
+/* 第一部分结束 */
+
+/* 第二部分 */
+
+
+.favorite-item{
+  width:690rpx;
+  height:560rpx;
+  margin:30rpx;
+  border-radius: 5rpx;
+  box-shadow: 5rpx 5rpx 10rpx rgb(200,200,200); 
+}
+.favorite-item-top{
+  position: relative;
+}
+
+.favorite-item-img{
+  width:690rpx;
+  height:450rpx;
+  
+}
+.favorite-item-bottom-left{
+  float: left;
+  padding-left: 30rpx;
+  padding-top: 5rpx;
+}
+.favorite-item-bottom-right{
+  float: right;
+}
+
+.fire{
+  width: 150rpx;
+  height: 50rpx;
+  background-color: rgb(180, 181, 185);
+  position: absolute;
+  bottom:30rpx;
+  right:10rpx;
+  border-radius: 10rpx;
+  z-index: 1;
+}
+.fire-img{
+  width: 20rpx;
+  height: 28rpx;
+  position: absolute;
+  padding-left: 15rpx;
+  padding-top: 10rpx;
+}
+.fire view{
+  padding-left: 40rpx;
+  color: white;
+  padding-top: 5rpx;
+}
+.meal-name{
+  font-weight: bold;
+  font-size:30rpx;
+}
+.meal-price{
+  font-weight: bold;
+  font-size:28rpx;
+  color:#fe7367;
+  padding-top: 5rpx;
+}
+
+.favorite-item-bottom-right image{
+  padding-top: 8rpx;
+  padding-left: 30rpx;
+  width: 42rpx;
+  height: 38rpx;
+
+}
+.favorite-item-bottom-right view{
+  font-size: 27rpx;
+  color: rgb(200,200, 200);
+  padding-right: 20rpx;
+}
+
+
+/* 第二部分结束 */
